@@ -6,7 +6,7 @@ export const NavBar: React.FC = () => {
   return (
     <Container>
       <div className="navContent">
-        <a className="navItem">
+        <a className="navItem active">
           <FiHome width={16} height={18} />
           <p>Home</p>
         </a>

@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const ContentContainer = styled.main`
+  margin-bottom: 80px;
   .greeting {
     display: flex;
     align-items: center;

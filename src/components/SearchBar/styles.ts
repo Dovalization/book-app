@@ -16,5 +16,13 @@ export const Container = styled.div`
   input {
     border: none;
     outline: none;
+    flex: 1;
+    font-family: 'SFProText';
+    font-size: 16px;
+    font-weight: 600;
+    &::placeholder {
+      color: #54565a;
+      font-weight: 400;
+    }
   }
 `
